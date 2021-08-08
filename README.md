@@ -67,3 +67,6 @@ wr.catalog.create_csv_table(
 ![AWS_Glue_Data_Catalog](https://user-images.githubusercontent.com/79841341/128629479-e64d2007-4005-44af-b810-2646acda915b.png)
 
 ### Now, we can query data in Amazon S3 with *Amazon Athena*
+
+![Amazon_Athena](https://user-images.githubusercontent.com/79841341/128631337-bf890128-253c-4270-889a-6e69cb3a2911.png)
+
