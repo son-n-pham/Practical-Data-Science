@@ -7,7 +7,7 @@ This is from the Practical Data Science specialization in Coursera provided by D
 
 ![MLInCloud](https://user-images.githubusercontent.com/79841341/128628702-6d8daf5e-bd7a-4ca8-a1e8-87be1462a88d.png)
 
-Machine Learning Workflow
+### Machine Learning Workflow
 ![ML_Workflow](https://user-images.githubusercontent.com/79841341/128628732-85141321-4b72-4e4f-91d3-92ce50f50532.png)
 
 ### Popular Machine Learning Tasks
