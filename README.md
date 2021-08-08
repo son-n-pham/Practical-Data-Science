@@ -1,5 +1,6 @@
-# Practical-Data-Science
 This is from the Practical Data Science specialization in Coursera provided by DeepLearning.AI and AWS
+
+# INTRODUCTION TO PRACTICAL DATA SCIENCE
 
 ### Good overview of AI, Machine Learning, Deep Learning and Data Science from DeepLearning.AI
 
@@ -12,6 +13,10 @@ This is from the Practical Data Science specialization in Coursera provided by D
 
 ### Popular Machine Learning Tasks
 ![ML_Tasks](https://user-images.githubusercontent.com/79841341/128628797-0a0e9394-efaf-488c-b204-269017b8d98f.png)
+
+# WORKING WITH DATA
+
+## Data Ingestion and Exploration
 
 ### Data Lakes
 For ML, we first need to store lots of data into the place, which is centralized (Easy to access), secure. The data storage needs to be suitable with all type of data including structured relational data (SQL), semi-structured data (JSON, html), unstructured data (images, video, audio files), streaming data. The data need to be governed, which means analysed, processed, analysed etc. That storage place is called data lake.
@@ -69,4 +74,7 @@ wr.catalog.create_csv_table(
 ### Now, we can query data in Amazon S3 with *Amazon Athena*
 
 ![Amazon_Athena](https://user-images.githubusercontent.com/79841341/128631337-bf890128-253c-4270-889a-6e69cb3a2911.png)
+
+## Data Visualization
+![data_visualization](https://user-images.githubusercontent.com/79841341/128631859-35087fc7-f649-4299-9bc0-bbd9aaea51a0.png)
 
