@@ -5,11 +5,7 @@ This is from the Practical Data Science specialization in Coursera provided by D
 
 ![overview](https://user-images.githubusercontent.com/79841341/128628651-1a245620-a219-43d9-b31d-fe3c80570902.png)
 
-
-
 ![MLInCloud](https://user-images.githubusercontent.com/79841341/128628702-6d8daf5e-bd7a-4ca8-a1e8-87be1462a88d.png)
-
-
 
 ### Machine Learning Workflow
 ![ML_Workflow](https://user-images.githubusercontent.com/79841341/128628732-85141321-4b72-4e4f-91d3-92ce50f50532.png)
