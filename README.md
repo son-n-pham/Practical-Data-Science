@@ -75,6 +75,6 @@ wr.catalog.create_csv_table(
 
 ![Amazon_Athena](https://user-images.githubusercontent.com/79841341/128631337-bf890128-253c-4270-889a-6e69cb3a2911.png)
 
-## Data Visualization
+## Data Visualization 
 ![data_visualization](https://user-images.githubusercontent.com/79841341/128631859-35087fc7-f649-4299-9bc0-bbd9aaea51a0.png)
 
