@@ -39,3 +39,31 @@ import pandas as pd
 # Retrieving the data directly from Amazon S3
 df = pd.s3.read_csv(path='s3://bucket/prefix/'
 ```
+### AWS Glue Data Data Catalog is used to register data in Amazon S3
+- Creates reference to data ("S3-to-table" mapping)
+- Just metadata / schema stored in tables
+- No data is moved
+- *AWS Glue Crawler* can be set up to automatically
+  - infer data schema
+  - update data catalog
+
+How-to register data
+
+```Python
+# First, import data wrangler
+import awswrangler as wr
+
+# Second, create a database in the AWS Glue Data Catalog
+wr.catalog.create_database(
+  name=...)
+
+# Third, create CSV table (metadata only) in the AWS Glue Data Catalog
+wr.catalog.create_csv_table(
+  table=...,
+  column_types=...,
+  ...)
+```
+
+![AWS_Glue_Data_Catalog](https://user-images.githubusercontent.com/79841341/128629479-e64d2007-4005-44af-b810-2646acda915b.png)
+
+### Now, we can query data in Amazon S3 with *Amazon Athena*
