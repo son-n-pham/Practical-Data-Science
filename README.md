@@ -19,7 +19,7 @@ This is from the Practical Data Science specialization in Coursera provided by D
 ## Data Ingestion and Exploration
 
 ### Data Lakes
-For ML, we first need to store lots of data into the place, which is centralized (Easy to access), secure. The data storage needs to be suitable with all type of data including structured relational data (SQL), semi-structured data (JSON, html), unstructured data (images, video, audio files), streaming data. The data need to be governed, which means analysed, processed, analysed etc. That storage place is called data lake.
+For ML, we first need to store lots of data into the place, which is centralized (Easy to access) and secure. The data storage needs to be suitable with all type of data including structured relational data (SQL), semi-structured data (JSON, html), unstructured data (images, video, audio files), streaming data. The data need to be governed, which means analysed, processed, analysed etc. That storage place is called data lake.
 
 ![data_lake](https://user-images.githubusercontent.com/79841341/128629012-8a859c7d-185a-4a82-bbcb-eadf5d81c88f.png)
 
@@ -44,7 +44,7 @@ import pandas as pd
 # Retrieving the data directly from Amazon S3
 df = pd.s3.read_csv(path='s3://bucket/prefix/'
 ```
-### AWS Glue Data Data Catalog is used to register data in Amazon S3
+### AWS Glue Data Catalog is used to register data in Amazon S3
 - Creates reference to data ("S3-to-table" mapping)
 - Just metadata / schema stored in tables
 - No data is moved
