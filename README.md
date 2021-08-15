@@ -78,3 +78,18 @@ wr.catalog.create_csv_table(
 ## Data Visualization 
 ![data_visualization](https://user-images.githubusercontent.com/79841341/128631859-35087fc7-f649-4299-9bc0-bbd9aaea51a0.png)
 
+## Statistical bias and feature importance
+
+### Amazon SageMaker Data Wrangler
+- More visualization to analyse a subset of data
+
+### Amazon SageMaker Clarify
+- Large volume of data
+
+![image](https://user-images.githubusercontent.com/79841341/129480561-6c62b9af-46a5-4ae3-91e4-35355d68239b.png)
+
+### Feature Importance
+- Explains the features making up the training data by a score
+- How useful or valuable the feature is relative to other features
+- Predict the sentiment for a product to define which features are important
+- Use open-source framework SHAP
